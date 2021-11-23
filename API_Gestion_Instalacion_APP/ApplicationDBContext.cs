@@ -13,11 +13,11 @@ namespace API_Gestion_Instalacion_APP
         {
         }
 
-        public DbSet <Telefonos> Telefono { get; set; }
-        public DbSet<Sensores> Sensor { get; set; }
-        public DbSet<Operarios> Operario { get; set; }
-        public DbSet<Apps> App { get; set; }
-        public DbSet<Instalaciones> Instalacion { get; set; }
+        public DbSet <Telefono> Telefono { get; set; }
+        public DbSet<Sensor> Sensor { get; set; }
+        public DbSet<Operario> Operario { get; set; }
+        public DbSet<App> App { get; set; }
+        public DbSet<Instalacion> Instalacion { get; set; }
 
 
     }
