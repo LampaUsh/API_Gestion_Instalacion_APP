@@ -29,7 +29,7 @@ namespace API_Gestion_Instalacion_APP
         {
 
             services.AddControllers();
-            services.AddDbContext<ApplicationDBContext>(opt => opt.UseMySQL("server=localhost;database=bbdd_gestor;user=root;password=Lampa100"));
+            services.AddDbContext<ApplicationDBContext>(opt => opt.UseMySQL("server=localhost;database=bbdd_gestor;user=root;password=root"));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "API_Gestion_Instalacion_APP", Version = "v1" });

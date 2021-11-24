@@ -28,7 +28,7 @@ namespace API_Gestion_Instalacion_APP.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("App");
+                    b.ToTable("Apps");
                 });
 
             modelBuilder.Entity("API_Gestion_Instalacion_APP.Modelos.Instalaciones", b =>
@@ -45,7 +45,7 @@ namespace API_Gestion_Instalacion_APP.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Instalacion");
+                    b.ToTable("Instalaciones");
                 });
 
             modelBuilder.Entity("API_Gestion_Instalacion_APP.Modelos.Operarios", b =>
@@ -62,7 +62,7 @@ namespace API_Gestion_Instalacion_APP.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Operario");
+                    b.ToTable("Operarios");
                 });
 
             modelBuilder.Entity("API_Gestion_Instalacion_APP.Modelos.Sensores", b =>
@@ -76,7 +76,7 @@ namespace API_Gestion_Instalacion_APP.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sensor");
+                    b.ToTable("Sensores");
                 });
 
             modelBuilder.Entity("API_Gestion_Instalacion_APP.Modelos.Telefonos", b =>
@@ -96,7 +96,7 @@ namespace API_Gestion_Instalacion_APP.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Telefono");
+                    b.ToTable("Telefonos");
                 });
 #pragma warning restore 612, 618
         }

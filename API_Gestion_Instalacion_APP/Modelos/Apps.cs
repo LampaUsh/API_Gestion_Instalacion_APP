@@ -5,11 +5,10 @@ using System.Threading.Tasks;
 
 namespace API_Gestion_Instalacion_APP.Modelos
 {
-    public class Instalacion
+    public class Apps
     {
         public int Id { get; set; }
-        public Boolean Exitosa { get; set; }
-        public DateTime Fecha { get; set; }
+        public string Nombre { get; set; }
 
     }
 }
