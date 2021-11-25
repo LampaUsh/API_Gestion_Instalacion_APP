@@ -9517,28 +9517,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Pablo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\pgatica\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pablo\\Source\\Repos\\API_Gestion_Instalacion_APP\\API_Gestion_Instalacion_APP\\API_Gestion_Instalacion_APP.csproj",
+      "projectUniqueName": "C:\\Users\\pgatica\\source\\repos\\API_Gestion_Instalacion_APP\\API_Gestion_Instalacion_APP\\API_Gestion_Instalacion_APP.csproj",
       "projectName": "API_Gestion_Instalacion_APP",
-      "projectPath": "C:\\Users\\Pablo\\Source\\Repos\\API_Gestion_Instalacion_APP\\API_Gestion_Instalacion_APP\\API_Gestion_Instalacion_APP.csproj",
-      "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pablo\\Source\\Repos\\API_Gestion_Instalacion_APP\\API_Gestion_Instalacion_APP\\obj\\",
+      "projectPath": "C:\\Users\\pgatica\\source\\repos\\API_Gestion_Instalacion_APP\\API_Gestion_Instalacion_APP\\API_Gestion_Instalacion_APP.csproj",
+      "packagesPath": "C:\\Users\\pgatica\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pgatica\\source\\repos\\API_Gestion_Instalacion_APP\\API_Gestion_Instalacion_APP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pgatica\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -9620,7 +9617,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
